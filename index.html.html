@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./Project1-Style.css" />
+  </head>
+  <body>
+    <div class="game">
+      <div id="left">
+        <div id="letter"></div>
+
+        <div id="helpMethod">
+          <div id="exclude">
+            <button id="excludeBut">KILL</button>
+          </div>
+          <div id="hint">
+            <button id="hintBut">HINT</button>
+          </div>
+
+          <div id="help">
+            <button id="HelpBut">RESCUE</button>
+          </div>
+        </div>
+
+        <p id="trials"></p>
+
+        <!-- <button id = "reload">Play Again</button> -->
+        <button id="reload" onClick="window.location.reload();">
+          Play Again
+        </button>
+        <label id="scoreLabel"></label>
+      </div>
+
+      <div id="lettersDiv"></div>
+
+      <div id="hanged">
+        <img id="Head" src="./6.png" alt="Paris" />
+        <img id="lHand" src="./5.png" alt="Paris" />
+        <img id="rHand" src="./4.png" alt="Paris" />
+        <img id="uBody" src="./3.png" alt="Paris" />
+        <img id="lLeg" src="./2.png" alt="Paris" />
+        <img id="rLeg" src="./1.png" alt="Paris" />
+      </div>
+
+      <div id="hangman">
+        HANGMAN
+
+        <div id="instructions">
+          <h1>Instructions</h1>
+          <ul>
+            <li>YOU HAVE 5 TRIALS</li>
+            <li>3 HELP CARDS WILL BE AVAILABLE BASED ON YOUR PROGRESS</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <audio src="correct.mp3" id="correct"></audio>
+    <audio src="wrong.mp3" id="wrong"></audio>
+    <audio src="Help.mp3" id="helpa"></audio>
+    <audio src="Winning.mp3" id="winning"></audio>
+    <audio src="Losing.mp3" id="losing"></audio>
+    <audio src="./Rescue.wav" id="rescue"></audio>
+    <audio src="./danger.mp3" id="danger"></audio>
+
+    <script src="./Project1-J.js"></script>
+  </body>
+</html>

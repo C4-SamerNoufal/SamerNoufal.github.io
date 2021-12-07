@@ -1,0 +1,282 @@
+body {
+  background-image: url("1292-1.jpg");
+  /* background-repeat: no-repeat; */
+  display: grid;
+  background-size: cover;
+}
+
+#title {
+  padding-left: 300px;
+  font-family: cursive;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+input {
+  width: 25px;
+  align-content: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+.letter1 {
+  width: 35px;
+  height: 35px;
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 25px;
+  border-color: red;
+}
+
+.letter1:hover {
+  background-color: cyan;
+  width: 40px;
+  height: 40px;
+}
+
+#inputs {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#trials {
+  font-weight: bolder;
+
+  font-size: 30px;
+  color: brown;
+  text-align: center;
+  margin: 10px;
+  font-family: cursive;
+}
+
+#lettersDiv {
+  text-align: center;
+  padding-top: 0px;
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+h1 {
+  color: red;
+}
+
+#hanged {
+  justify-content: center;
+  padding-top: 70px;
+  display: inline-grid;
+  grid-template-columns: 81px 100px;
+  grid-template-rows: 103px 40px 28px 23px;
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+#Head {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  width: 180px;
+}
+
+#lHand {
+  padding-top: 70px;
+  padding-left: 5px;
+  grid-column-start: 2;
+  grid-row-start: 1;
+  width: 95px;
+}
+#rHand {
+  padding-top: 20px;
+  padding-left: 13px;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  width: 80px;
+}
+
+#uBody {
+  padding-left: 9px;
+  /* grid-column-start: 2; */
+  grid-column-start: 2;
+  grid-row-start: 3;
+  width: 88px;
+  /* margin-left: 40px; */
+}
+
+#lLeg {
+  padding-left: 10.5px;
+  grid-column-start: 2;
+  grid-row-start: 4;
+  width: 85px;
+}
+
+#rLeg {
+  padding-left: 11px;
+  grid-column-start: 2;
+  grid-row-start: 5;
+  width: 80px;
+}
+
+#help {
+  text-align: center;
+  margin-top: 0px;
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+.addedInput {
+  width: 30px;
+  height: 30px;
+  border-style: double;
+  background-color: black;
+  margin: 0px;
+  border-color: red;
+  border-radius: 5px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#HelpBut {
+  background-color: greenyellow;
+  color: red;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  border-color: red;
+  font-style: oblique;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+#HelpBut:hover {
+  background-color: gold;
+  /* width: 160px;
+  height: 60px; */
+}
+
+#letter {
+  display: grid;
+
+  grid-template-columns: repeat(5, 40px);
+  grid-template-rows: repeat(5, 40px);
+}
+
+.game {
+  display: grid;
+  grid-template-columns: 300px 500px;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+#reload {
+  background-color: green;
+  font-family: cursive;
+  font-size: 30px;
+  border-radius: 30px;
+  margin-left: 70px;
+  color: rgba(240, 255, 240, 0.993);
+
+  border-color: royalblue;
+
+  text-align: center;
+  align-content: center;
+  width: 170px;
+}
+
+#reload:hover {
+  background-color: dodgerblue;
+  width: 190px;
+  height: 80px;
+}
+
+#left {
+  display: grid;
+}
+
+#instructions {
+  align-content: center;
+  /* text-align:right; */
+  margin-top: 0px;
+  font-size: 17px;
+  color: red;
+
+  /* grid-column-start: 3;
+  grid-row-start: 1; */
+}
+
+#helpMethod {
+  display: flex;
+}
+
+#excludeBut {
+  background-color: greenyellow;
+  color: red;
+  width: 75px;
+  height: 50px;
+  border-radius: 10px;
+  border-color: red;
+
+  font-size: 20px;
+  font-family: cursive;
+}
+
+#hintBut {
+  background-color: greenyellow;
+  color: red;
+  width: 75px;
+  height: 50px;
+  border-radius: 10px;
+  border-color: red;
+
+  font-size: 20px;
+  font-family: cursive;
+}
+
+#hintBut:hover {
+  background-color: gold;
+  /* width: 160px;
+  height: 60px; */
+}
+
+#excludeBut:hover {
+  background-color: gold;
+  /* width: 160px;
+  height: 60px; */
+}
+
+#hangman {
+  color: red;
+  font-size: 50px;
+  padding-left: 10px;
+  grid-column-start: 3;
+  grid-row-start: 1;
+  font-family: cursive;
+  text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+
+li {
+  font-size: 20px;
+  font-family: cursive;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+li:hover {
+  font-size: 23px;
+  background-color: rgba(240, 255, 240, 0.315);
+  /* font-size: larger; */
+}
+
+h3 {
+  font-family: cursive;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#hint {
+  font-size: 30px;
+  font-family: cursive;
+  color: red;
+}
+
+#scoreLabel {
+  color: red;
+  font-size: 20px;
+  font-family: cursive;
+}
